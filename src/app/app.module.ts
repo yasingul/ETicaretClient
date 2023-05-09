@@ -12,7 +12,7 @@ import { UiModule } from './ui/ui.module';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     AdminModule,
     UiModule
