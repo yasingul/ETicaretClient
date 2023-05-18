@@ -37,3 +37,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Alertify JS
 
 [Alertify JS](https://alertifyjs.com/guide.html)
+
+## Toastr
+
+[Toastr](https://github.com/scttcper/ngx-toastr)
