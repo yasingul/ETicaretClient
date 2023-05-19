@@ -41,3 +41,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Toastr
 
 [Toastr](https://github.com/scttcper/ngx-toastr)
+
+## NgxSpinner
+
+[NgxSpinner](https://github.com/Napster2210/ngx-spinner)
+[Animations](https://labs.danielcardoso.net/load-awesome/animations.html)
