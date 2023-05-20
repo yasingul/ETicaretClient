@@ -11,7 +11,7 @@ declare var $: any
 export class AppComponent {
   title = 'ETicaretClient';
   //TOASTR NOTIFICATION
-  constructor(private toastrService: CustomToastrService) {
+  /*constructor(private toastrService: CustomToastrService) {
     toastrService.message("Bu bilgidir!", "Bitch!", {
       messageType: ToastrMessageType.Info,
       position: ToastrPosition.TopCenter
@@ -28,5 +28,7 @@ export class AppComponent {
       messageType: ToastrMessageType.Warning,
       position: ToastrPosition.BottomCenter
     })
+  }*/
+  constructor(){
   }
 }
