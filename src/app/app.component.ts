@@ -9,7 +9,6 @@ declare var $: any
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ETicaretClient';
   //TOASTR NOTIFICATION
   /*constructor(private toastrService: CustomToastrService) {
     toastrService.message("Bu bilgidir!", "Bitch!", {
@@ -29,6 +28,11 @@ export class AppComponent {
       position: ToastrPosition.BottomCenter
     })
   }*/
-  constructor(){
+  title = 'ETicaretClient';
+  constructor() {
   }
 }
+//jquery ile endpoint'e browser tabanlı istek göndeririz.
+$.get("https://localhost:7151/api/products", data => {
+  console.log(data)
+})
