@@ -32,7 +32,5 @@ export class AppComponent {
   constructor() {
   }
 }
-//jquery ile endpoint'e browser tabanlı istek göndeririz.
-$.get("https://localhost:7151/api/products", data => {
-  console.log(data)
-})
+// jquery ile endpoint'e browser tabanlı istek göndeririz.
+$.get("https://localhost:7151/api/products", data => { console.log(data) })
