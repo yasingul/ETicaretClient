@@ -46,3 +46,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [NgxSpinner](https://github.com/Napster2210/ngx-spinner)
 [Animations](https://labs.danielcardoso.net/load-awesome/animations.html)
+
+## Paginator
+
+[Paginator](https://material.angular.io/components/paginator/api)
+
+## Table
+
+[Table](https://material.angular.io/components/table/api)
