@@ -20,7 +20,7 @@ export class ProductsComponent extends BaseComponent implements OnInit {
     
   }
 
-  @ViewChild(ListComponent) listComponents : ListComponent
+  @ViewChild(ListComponent) listComponents : ListComponent;
 
   createdProduct(createdProduct: Create_Product){
     this.listComponents.getProducts();
